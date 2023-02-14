@@ -88,14 +88,14 @@ project:
 
    ```linux
    $ git pull
-   ```linux
+   ```
 
    If you have made changes in the repo and you forgot to perform the
    `Sync fork` before start working, an optional command will be:
 
    ```linux
    $ git pull --autostash
-   ```linux
+   ```
 
 
 3. **Work in the project**. Create new files, modify existing files in
@@ -106,25 +106,25 @@ project:
 
    ```linux
    $ git add <file>
-   ```linux
+   ```
 
    Where `<file>` is the name of the file. For example if you created a new notebook named `test.ipynb` use:
 
    ```linux
    $ git add test.ipynb
-   ```linux
+   ```
 
    You can add multiple files using for instance:
 
    ```linux
    $ git add *.ipynb
-   ```linux
+   ```
 
    Once you have added new files or if you changed already existing files run:
 
    ```linux
    $ git commit -am "Some text describing changes"
-   ```linux
+   ```
 
    where in `"Some text describing changes"` please use a text that
    other developers may understand. Here are some examples: `"New
@@ -136,7 +136,7 @@ project:
 
    ```linux
    $ git push
-   ```linux
+   ```
 
 6. Now you need to request the main developer to include you changes
    by making a `Pull request`. For this go to the repository webpage
