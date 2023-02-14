@@ -1,0 +1,1 @@
+my proyect talk about the problem od two bodys in the general relativy 
