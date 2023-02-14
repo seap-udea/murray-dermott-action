@@ -10,20 +10,20 @@ required packages and perform some configurations:
 
    ```linux
    $ sudo apt update
-   ```linux
+   ```
 
 2. Install `git` and `emacs`:
 
    ```linux
    $ sudo apt install git emacs
-   ```linux
+   ```
 
 3. Configure git (optional):
 
    ```linux
    $ git config --global user.name "Jose Guerra Carmenate"
    $ git config --global user.email joseguerracarmenate@gmail.com
-   ```linux
+   ```
 
 Below is the procedure to fork the repo, create a working copy, modify
 your working copy, commit changes to your own fork and pull request to
@@ -39,7 +39,7 @@ the main repo:
 
    ```linux
    $ ssh-keygen -t rsa
-   ```linux
+   ```
 
    When prompt for a password press enter (do not write anything).
 
@@ -51,7 +51,7 @@ the main repo:
    ``` $ cat $HOME/.ssh/id_rsa.pub ssh-rsa
    ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC98DuynV5aPaP5CWiY8k3GiRwjvh9tHtiTxpzQ48s3pNj8iqxjr8YUuoaJghqenXwjgvxHBkPqtR8x6sWIw+ijV/bsRq49NloQDvr5d9QPsgpHk4omSDr+z9ZTGNKpQnv0YodvuwxuHA87puNWKmwKSk+8hMtG9VI6mnzL/SbzZfDoj+Z6fwSckmDG+XP7he0ARkzXrktkRTTLebA34NoGf5vzL7Xz9gAyFwocrbpeUARVDAV6y3C41mCh90tPeFViMUeGpWES6gsQBdvY1GV5blVoUQMLZH5IDp7hKbJoysKE=
    jorgezuluagacallejas@MacBook-Pro-de-Jorge-2.local
-   ```linux
+   ```
      
 3. **Upload public key to GitHub**. Open your GitHub account, click
    the icon of your profile and look for the option `Settings`. In
@@ -63,14 +63,14 @@ the main repo:
 
    ```linux
    $ git clone git@github.com:<name_in_github>/murray-dermott-action.git
-   ```linux
+   ```
 
    where `<name_in_github>` is the nickname of your account in
    GitHub. If your name is `JaneDoe` then the command will be:
 
    ```linux
    $ git clone git@github.com:JaneDoe/murray-dermott-action.git
-   ```linux
+   ```
 
 ### Developing cycle
 
