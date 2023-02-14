@@ -1,6 +1,16 @@
 # murray-dermott-action
 A series of Python tools for Murray and Dermott book 
 
+## Clone
+
+In order to clone the repo:
+
+```
+git clone https://github.com/seap-udea/murray-dermott-action
+```
+
+---------
+
 This is a project developed in collaboration by:
 
 - ACOSTA BELTRAN DIEGO ALEJANDRO (diego.acostab@udea.edu.co
