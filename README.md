@@ -1,5 +1,5 @@
 # murray-dermott-action
-A series of Python tools for Murray and Dermott book 
+A series of Python tools for Murray and Dermott book.
 
 ## Clone
 
@@ -8,6 +8,8 @@ In order to clone the repo:
 ```
 git clone https://github.com/seap-udea/murray-dermott-action
 ```
+
+This will simply a working copy.
 
 ---------
 
