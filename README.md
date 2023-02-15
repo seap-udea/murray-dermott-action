@@ -160,31 +160,20 @@ a Linux environment:
 - https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf. Keyboard
   commands of emacs.
 
-## Clone
-
-In order to clone the repo:
-
-```
-git clone https://github.com/seap-udea/murray-dermott-action
-```
-
-This will simply a working copy.
-
 ---------
 
 This is a project developed in collaboration by:
 
-- ACOSTA BELTRAN DIEGO ALEJANDRO (diego.acostab@udea.edu.co
-- AGUDELO QUICENO JUANITA ANDREA (juanita.agudelo@udea.edu.co)
-- ARBOLEDA BOLIVAR SOFÍA (sofia.arboledab@udea.edu.co)
-- GOMEZ GARCIA LEONARD ADRIAN (leonard.gomez@udea.edu.co)
-- HERRERA GUZMÁN SANTIAGO (santiago.herrerag1@udea.edu.co)
-- NIÑO VILLEGAS DANIEL (daniel.ninov@udea.edu.co)
-- NOREÑA GARCIA EMANUEL (emanuel.norena@udea.edu.co)
-- ZAGARRA PIEDRAHITA EVELYN DAYANA (evelyn.zagarra@udea.edu.co)
-- ZAPATA ZULUAGA DIANA CAROLINA (dianac.zapata@udea.edu.co)
-- ZULUAGA CALLEJAS JORGE IVÁN (jorge.zuluaga@udea.edu.co) [Coordinator]  
+- Daniel Niño-Villegas (daniel.ninov@udea.edu.co)
+- Diana Zapata-Zuluaga (dianac.zapata@udea.edu.co)
+- Diego A. Acosta-Beltran (diego.acostab@udea.edu.co)
+- Emanuel Noreña-Garcia (emanuel.norena@udea.edu.co)
+- Evelyn Zagarra-Piedrahita (evelyn.zagarra@udea.edu.co)
+- Juanita A. Agudelo-Quiceno (juanita.agudelo@udea.edu.co)
+- Leonard A. Gomez-Garcia (leonard.gomez@udea.edu.co)
+- Santiago Herrera-Guzmán (santiago.herrerag1@udea.edu.co)
+- Sofia Arboleda-Bolivar (sofia.arboledab@udea.edu.co)
+- Jorge I. Zuluaga (jorge.zuluaga@udea.edu.co) [Coordinator]  
 
 All of them from the undergraduate program in astronomy of the
 University of Antioquia.
-
