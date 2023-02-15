@@ -158,7 +158,10 @@ a Linux environment:
   complete tutorial on GitHub in spanish, *¡y ole!*.
 
 - https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf. Keyboard
-  commands of emacs.
+  shortcuts for emacs.
+
+- https://ubuntu.com/tutorials/command-line-for-beginners#1-overview. An
+  introductory guide to the Linux command line.
 
 ---------
 
