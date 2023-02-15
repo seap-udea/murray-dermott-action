@@ -155,7 +155,10 @@ a Linux environment:
   is the basic manual of GitHub.
 
 - https://programarfacil.com/blog/arduino-blog/git-y-github/. A
-  complete tutorial on GitHub in spanish, *¡y ole!*.
+  complete tutorial on Git in spanish, *¡y ole!*.
+
+- https://bluuweb.github.io/tutorial-github/01-fundamentos/. Another
+  complete tutorial on Git and GitHub in spanish.
 
 - https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf. Keyboard
   shortcuts for emacs.
