@@ -146,6 +146,40 @@ project:
 7. Have a cup of chocolate and return to step 1 when you are ready to
    start working again in the project.
 
+### Python standards
+
+When writing python code we will try to attach to the Python PEP-8
+Standards. Theses standards offers a guide on several good-practices
+on writing lines of code, functions, documentation, etc.
+
+For instance the following piece of code does not complain the PEP-8:
+
+```python
+from pymcel import kepler_newton
+import numpy as np
+e=0.5
+M=np.pi/2.3
+kepler_newton(M,e,M,delta=1e-14)
+```
+
+This code has the proper structure:
+```python
+from pymcel import kepler_newton
+import numpy as np
+e = 0.5
+M = np.pi/2.3
+kepler_newton(M, e, M, delta=1e-14)
+```
+
+Please read the following pages to understand the standards before
+start writing code:
+
+- https://peps.python.org/pep-0008/. Official web page with the
+  standard specification.
+
+- https://ellibrodepython.com/python-pep8. A guide in spanish about
+  the standard.
+
 ### Useful resources
 
 Here are some useful wepages, manuals, tutorials for developers under
