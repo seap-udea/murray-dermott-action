@@ -200,6 +200,8 @@ a Linux environment:
 - https://ubuntu.com/tutorials/command-line-for-beginners#1-overview. An
   introductory guide to the Linux command line.
 
+- Python PEP-8 Standard: https://peps.python.org/pep-0008/ (english), https://ellibrodepython.com/python-pep8 (spanish)
+
 ---------
 
 This is a project developed in collaboration by:
