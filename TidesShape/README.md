@@ -1,5 +1,5 @@
 # Tides, Rotation, and Shape
-## Author Diego Alejandro Acosta Beltran
+## Author: Sofía Arboleda
 
 This project is a implementation of the theory in Solar System Dynamics.
 
