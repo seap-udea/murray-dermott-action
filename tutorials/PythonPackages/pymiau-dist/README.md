@@ -12,7 +12,7 @@ potential user do it!
 This is an example:
 
 <p align="center">
-<img src="https://drive.google.com/open?id=1nnCwjJhgW82seuI2u_IASGzBwn9KTDa9" alt="Logo""/>
+<img src="https://drive.google.com/open?id=1XWnQLEt_oBJjVzMLFVGEAm_uh4zmiYvC" alt="Logo""/>
 </p>
 
 ## Download and install
