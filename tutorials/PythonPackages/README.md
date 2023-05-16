@@ -56,6 +56,12 @@ For writing a python package you need four basic files:
 - `LICENSE`: A license file. A complete list of licenses can be found
   at https://choosealicense.com/licenses/.
 
+- `makefile`: Creating a package create a lot of noisy files. This
+  file will allow you to clean your repo frequently.
+
+All this files are packed in the `package.zip` file included in this
+tutorial.
+
 Creating the package
 --------------------
 
@@ -73,21 +79,21 @@ Creating the package
    this repo you will find a basic set of files (see section below).
    Unpack the file there:
 
-2. Create a directory inside the package distribution directory for
+3. Create a directory inside the package distribution directory for
    all the source files that will be packed in your project:
 
    ```
    [mypack-dist]$ mkdir -p mypack
    ```
 
-3. Move the specific package files into the package directory. For the
+4. Move the specific package files into the package directory. For the
    basic files this includes one the `__init__.py` file:
 
    ```
    [mypack-dist]$ mv __init__.py mypack/
    ```
 
-4. Test to import your package from the distribution directory. You
+5. Test to import your package from the distribution directory. You
    may also test some basic functionalities:
 
    ```
@@ -96,13 +102,13 @@ Creating the package
 
    Make sure that your package is working properly.
 
-5. Edit your `setup.py` file. Here are the explanation of what each
+6. Edit your `setup.py` file. Here are the explanation of what each
    line do.
 
-6. Edit your `pyproject.toml` with the packages required for running
+7. Edit your `pyproject.toml` with the packages required for running
    your package.
 
-7. Test to install locally your package:
+8. Test to install locally your package:
 
    ```
    [mypack-dist]$ pip install -e .
@@ -110,37 +116,35 @@ Creating the package
 
    This command will install in your local python distribution the package.
 
-8. Create a distribution.  A distribution is a set *tarball* with all
+9. Create a distribution.  A distribution is a set *tarball* with all
    the files included in your package:
 
    ```
    [mypack-dist]$ python setup.py sdist
    ```
 
-9. Upload your package to the test repository:
+10. Upload your package to the test repository:
 
    ```
    [mypack-dist]$ twine upload --repository-url https://test.pypi.org/legacy/ dist/*
    ```
 
-10. Test to install your package from the test repository:
+11. Test to install your package from the test repository:
 
    ```
    [mypack-dist]$ pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple <your_package>
    ```
 
-11. Upload your package to the main repository:
+12. Upload your package to the main repository:
 
    ```
    [mypack-dist]$ twine upload dist/*
    ```
 
-12. Install the package from the main repository:
+13. Install the package from the main repository:
 
    ```
    [mypack-dist]$ pip install <your_package>
    ```
 
 And done! Now you have a public package.
-
-
