@@ -40,6 +40,39 @@ class elipse():
         elipse_positions[:,1] = elipsey
 
         return elipse_positions
+    
+    @staticmethod
+    def getFocus(center1, center2, radio1, radio2):
+        r1 = radio1
+        r2 = radio2
+
+        c1 = np.array(center1)
+        c2 = np.array(center2)
+
+        d = ((c2[0]-c1[0])**2 + (c2[1] - c1[1])**2)**(1/2)
+        a = (r1**2 - r2**2 + d**2)/(2*d)
+
+        dx = (c2[0] - c1[0])/d
+        dy = (c2[1] - c1[1])/d
+
+        px = c1[0] + a*dx
+        py = c1[1] + a*dy
+
+        h = (r1**2 - a**2)**(1/2)
+
+        p1_x = px + h*dy
+        p1_y = py - h*dx
+
+        p2_x = px - h*dy
+        p2_y = py + h*dx
+
+        point1 = [p1_x, p1_y]
+        point2 = [p2_x, p2_y]
+
+        return point1, point2
+    
+
+
 
 
 
