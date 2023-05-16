@@ -12,7 +12,7 @@ potential user do it!
 This is an example:
 
 <p align="center">
-<img src="https://images.pexels.com/photos/3777622/pexels-photo-3777622.jpeg" alt="Logo""/>
+<img src="https://github.com/seap-udea/murray-dermott-action/blob/main/tutorials/PythonPackages/pymiau-dist/pymiau/data/miau.jpeg" alt="Logo""/>
 </p>
 
 ## Download and install
