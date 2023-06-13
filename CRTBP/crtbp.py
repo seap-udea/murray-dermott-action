@@ -283,8 +283,6 @@ class Crtbp():
         def x(t): return np.sum(alpha*np.exp(eigens*t))
         def y(t): return np.sum(beta*np.exp(eigens*t))
 
-        if L == 1 or L == 2 or L == 3 or mu > (27-np.sqrt(621))/(54):
-            print('Unstable point')
         if eigenvalues:
             return np.vectorize(x), np.vectorize(y), eigens
 
@@ -365,6 +363,20 @@ class Crtbp():
             Rh (float): Hill radius
         """
         return (mu/3)**(1/3)
+
+    @staticmethod
+    def get_Hill_JC(X, mu):
+        """Jacobi constants in the Hill aproximation
+        Args:
+            X (list): Position vector [x,y]
+            mu (float): mass ratio (m2)(m1+m2) 
+
+        Returns:
+            Rh (float): Hill radius
+        """
+        x, y = X
+        delta = np.sqrt(x**2+y**2)
+        return 3*x**2+2*mu/delta
 
 
 if __name__ == "__main__":
