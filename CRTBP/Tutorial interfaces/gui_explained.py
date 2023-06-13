@@ -150,7 +150,6 @@ def graph():
 orbits_button = CTkButton(buttons_frame, width=200, height=80, text='Graph orbit',
                           command=graph)
 
-
-hola_button.grid(row=0, column=0)
+orbits_button.pack()
 
 root.mainloop()
